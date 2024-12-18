@@ -6,6 +6,7 @@ import {
     CarouselPrevious,
   } from "@/components/ui/carousel";
   import { FlipWords } from "@/components/ui/flip-words";
+import Image from "next/image";
 
 export const HomeUi = () => {
     return (
@@ -15,27 +16,27 @@ export const HomeUi = () => {
           <CarouselContent>
             <CarouselItem >
                 <div className="bg-white h-full">
-                  <img src="/img1.png" alt="hi" className="w-full h-full rounded-lg" />
+                  <Image src="/img1.png" alt="hi" className="w-full h-full rounded-lg" />
                 </div>
             </CarouselItem>
             <CarouselItem >
                 <div className="bg-white h-full">
-                  <img src="/img2.png" alt="hi" className="w-full h-full rounded-lg" />
+                  <Image src="/img2.png" alt="hi" className="w-full h-full rounded-lg" />
                 </div>
             </CarouselItem>
             <CarouselItem >
                 <div className="bg-white h-full">
-                  <img src="/img3.png" alt="hi" className="w-full h-full rounded-lg" />
+                  <Image src="/img3.png" alt="hi" className="w-full h-full rounded-lg" />
                 </div>
             </CarouselItem>
             <CarouselItem >
                 <div className="bg-white h-full">
-                  <img src="/img4.png" alt="hi" className="w-full h-full rounded-lg" />
+                  <Image src="/img4.png" alt="hi" className="w-full h-full rounded-lg" />
                 </div>
             </CarouselItem>
             <CarouselItem >
                 <div className="bg-white h-full">
-                  <img src="/img5.png" alt="hi" className="w-full h-full rounded-lg" />
+                  <Image src="/img5.png" alt="hi" className="w-full h-full rounded-lg" />
                 </div>
             </CarouselItem>
           </CarouselContent>
