@@ -7,20 +7,6 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 export default function Home() {
   return (
     <div className="max-w-screen min-h-screen max-h-fit flex flex-grow flex-col">
-      {/* <Image
-        className="dark:invert"
-        src="/logo.png"
-        alt="I2EDC IIT Jammu logo"
-        width={300}
-        height={80}
-        priority
-      />
-      <h1 className="text-4xl font-bold text-center text-gray-800">
-        Welcome to I2EDC IIT Jammu
-      </h1>
-      <p className="text-lg text-center text-gray-600 mt-4">
-        Innovation and Entrepreneurship Development Center at IIT Jammu
-      </p> */}
       <Header />
       <HomeUi />
       <InfiniteMovingCards items={[{
