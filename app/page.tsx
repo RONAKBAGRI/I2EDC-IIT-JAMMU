@@ -1,4 +1,3 @@
-
 import { Header } from "@/components/ui/header";
 import { HomeUi } from "@/components/ui/home";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
@@ -25,7 +24,7 @@ export default function Home() {
         quote:`"Innovation is seeing what everybody has seen and thinking what nobody has thought." — Dr. Albert Szent-Györgyi`,
         name:"Entrepreneurial Edge",
         title:"Innovate. Build. Scale."
-      }]} direction="left" speed="normal" pauseOnHover={true} className="w-full" />
+      }]} direction="left" speed="fast" pauseOnHover={true} className="w-full" />
     </div>
   );
 }
